@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 20px 10px;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ffccdd, #ffd6e8, #ffeefa);
+    display: flex;
+    justify-content: flex-start; /* posun na vrch */
+    align-items: flex-start;     /* posun na vrch */
+    min-height: 100vh;           /* umožní scrollovanie */
+    flex-direction: column;
+    text-align: center;
+}
+.content-box {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 30px 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(255, 150, 180, 0.5);
+    backdrop-filter: blur(5px);
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto; /* centrálne a scrollovateľné */
+}
