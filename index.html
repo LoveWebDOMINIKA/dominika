@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html lang="sk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pre Dominiku</title>
-    <style>
-        body {
-            margin:0; padding:0; font-family:'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, #ffccdd, #ffd6e8, #ffeefa);
-            display:flex; flex-direction:column; justify-content:center; align-items:center; height:100vh; text-align:center;
-        }
-        .content-box {
-            background: rgba(255,255,255,0.5); padding:40px 50px; border-radius:30px;
-            box-shadow: 0 0 30px rgba(255,150,180,0.5); backdrop-filter: blur(5px); max-width:700px;
-        }
-        h1 { font-size:3rem; margin-bottom:20px; color:#a61253; text-shadow:0 0 10px #fff; }
-        p { font-size:1.4rem; line-height:1.8; color:#a61253; }
-        .heart { font-size:3rem; margin:20px 0; animation:pulse 1.5s infinite; }
-        @keyframes pulse { 0% { transform:scale(1); } 50% { transform:scale(1.2); } 100% { transform:scale(1); } }
-        a.button {
-            display:inline-block; padding:12px 25px; margin-top:20px; font-size:1.2rem;
-            color:white; background-color:#a61253; text-decoration:none; border-radius:15px;
-            transition:0.3s;
-        }
-        a.button:hover { background-color:#ff6699; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pre Dominiku</title>
+<style>
+    body {
+        margin: 0;
+        padding: 20px 10px;
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(135deg, #ffccdd, #ffd6e8, #ffeefa);
+        text-align: center;
+        min-height: 100vh;
+    }
+    .content-box {
+        background: rgba(255,255,255,0.5);
+        padding: 30px 25px;
+        border-radius: 25px;
+        box-shadow: 0 0 25px rgba(255,150,180,0.5);
+        backdrop-filter: blur(5px);
+        width: 90%;
+        max-width: 600px;
+        margin: 20px auto;
+    }
+    h1 { font-size: 2.2rem; margin-bottom: 15px; color: #a61253; text-shadow: 0 0 8px #fff; }
+    p { font-size: 1.2rem; line-height: 1.6; color: #a61253; margin-bottom: 15px; }
+    .heart { font-size: 3rem; margin: 20px 0; animation: pulse 1.5s infinite; }
+    @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.2); } 100% { transform: scale(1); } }
+    a.button {
+        display: inline-block;
+        padding: 14px 28px;
+        margin-top: 20px;
+        font-size: 1.2rem;
+        color: white;
+        background-color: #a61253;
+        text-decoration: none;
+        border-radius: 15px;
+        transition: 0.3s;
+    }
+    a.button:hover { background-color: #ff6699; }
+    @media (max-width:480px) {
+        h1 { font-size: 1.8rem; }
+        p { font-size: 1rem; }
+        .heart { font-size: 2rem; }
+        a.button { padding: 12px 20px; font-size: 1rem; }
+    }
+</style>
 </head>
 <body>
     <div class="content-box">
         <h1>💖💞 Pre moju jedinú lásku, Dominiku 💞💖</h1>
-        <p>
-            Dali sme sa dokopy <strong>20.11</strong> 💞❤️. Od toho momentu je všetko krajšie, silnejšie a plné lásky 💘💖.<br>
-            Prvýkrát sa stretneme <strong>6.12</strong> 💖💍 — na moje meniny a 2.12 oslávim svoje <strong>17. narodeniny</strong> ❤️🎉.<br>
-            Ty, moja láska Dominika, narodená <strong>25.10</strong> 💕♾️, si dar, ktorý mi prišiel do života presne vtedy, keď som to najviac potreboval.
-        </p>
+
+        <p>Od chvíle, keď sme sa dali dokopy <strong>20.11</strong> ❤️, je každý deň s tebou pre mňa výnimočný. Myslieť na teba mi vždy vyčarí úsmev na tvári a naplní moje srdce radosťou 💘✨.</p>
+
+        <p>Predstavujem si deň, keď sa prvýkrát stretneme <strong>6. decembra</strong> 💍, a srdce mi bije rýchlejšie len pri pomyslení na tvoj úsmev 🥰💓. Každý deň sa teším na naše spoločné chvíle a na všetky krásne spomienky, ktoré spolu vytvoríme 💖♾️.</p>
+
+        <p>Milujem tvoj smiech 😂💖, tvoju jemnosť, tvoje malé gesto, ktorým vieš spraviť deň krajším 💘🥺. Si moja jediná, moje nekonečno ♾️💞 a dar, ktorý som nikdy nečakal, ale presne som potreboval.</p>
+
+        <p>Chcem, aby si vedela, že ťa milujem celým srdcom ❤️💖 a že každý deň s tebou je pre mňa dar. Si moja radosť, moja inšpirácia a moja pravá láska 💞💘.</p>
+
         <div class="heart">❤️💖💞💘💍♾️💘💞💖❤️</div>
+
         <a class="button" href="strana2.html">💞 Prejsť na stranu 2 💞</a>
     </div>
 </body>
